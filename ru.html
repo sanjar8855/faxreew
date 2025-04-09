@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Тимур и Земфира</title>
+</head>
+<body>
+<div class="invitation">
+    <header>
+        <h1>Дорогие гости!</h1>
+        <p> 
+            Приглашаем вас на свадьбу!
+            <br>
+            <span class="name">Тимура </span> и <span class="name">Земфиры</span>
+        </p>
+        <!-- <p>Қалблар эзгуликларга тўла бўлган ушбу қутлуғ кунда <br> биз билан бирга бўлинг!</p> -->
+    </header>
+    <section class="details">
+        <p><strong>Начало свадьбы:</strong> 20.04.2025 в время 14:00</p>
+        <p><strong>Адрес:</strong> Свадебный зал Водий</p>
+        <a href="https://yandex.uz/maps/-/CHVmaNIq" target="_blank" class="map-button">Открыть на карте</a>
+        <a class="map-button" onclick="musiqa()">Слушать музыку</a>
+    </section>
+    <div class="countdown">
+        <div class="time"><div id="days">00</div> <span>дней</span></div>
+        <div class="time"><div id="hours">00</div> <span>чясов</span></div>
+        <div class="time"><div id="minutes">00</div> <span>минута</span></div>
+        <div class="time"><div id="seconds">00</div> <span>секунда</span></div>
+        <div class="end">Понеслось!</div>
+    </div>
+    <audio autoplay loop>
+        <source src="perfect.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
