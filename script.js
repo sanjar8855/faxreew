@@ -5,7 +5,7 @@ var mydate = new Date();
 mydate.setFullYear(2025);
 mydate.setMonth(3);
 mydate.setDate(25);
-mydate.setHours(14);
+mydate.setHours(10);
 mydate.setMinutes(0);
 mydate.setSeconds(0);
 const weddingDate = mydate.getTime();
